@@ -1,0 +1,16 @@
+# Daily Learning
+
+## Morning Planning
+
+<img alt="Cloudy morning" src="https://myoctocat.com/assets/images/base-octocat.svg" width="100" align="right">
+
+- [ ] Check out the [github blog](https://github.blog/) for topic ideas.
+- [ ] Learn about [GitHub Pages](https://docs.github.com/en/pages).
+- [ ] Convert my first blog post into an actual webpage.
+
+## Review
+Convert an image or video from dark mode to light mode using ffmpeg:
+
+```bash
+ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
+```
